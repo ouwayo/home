@@ -26,3 +26,21 @@ Flutter Dependencies:
 
 These dependencies allow for various implementations such as Notifications. Some make it easy to display data from a source be it json or database. 
 
+#Notification: From Image classifier
+
+This functionility happens once someone comes around the camera. 
+There is Fare_recognition algorithm  which uses AI to learn known people in the system, and tells if a person is an intruder/ stranger.
+Currently, the model is installed on the local machine but the result is transfered to firebase, where the notification is triggered and sent to the system admin. The notification gives a possibility of allowing or denying a person into the house, it means if the admin/ owner accepts then, the intrance door opens, or if he or she denies then, there will be another possibility, either going back or any other means of communication betwen two parties. 
+
+Data structure:
+Stack- widgets 
+
+Technologies:
+-AI
+-Flutter
+-Dart 
+-Python 
+
+
+
+
